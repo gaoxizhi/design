@@ -1,4 +1,4 @@
-package site.gaox.dependenceinversion;
+package site.gaox.design.principle.dependenceinversion;
 
 /**
  * @Description: <p>  </p>
