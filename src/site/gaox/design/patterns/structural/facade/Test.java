@@ -23,7 +23,7 @@ public class Test {
         //声明物流服务
         GiftExchangService giftExchangService = new GiftExchangService();
         //发起购物申请
-        giftExchangService.SetQualifyService(qualifyService);
+        giftExchangService.setQualifyService(qualifyService);
         //
         giftExchangService.setPointPaymentService(pointPaymentService);
         //声明物流服务

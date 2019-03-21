@@ -5,13 +5,14 @@ package site.gaox.design.patterns.structural.facade;
  * @Auther: gaox·Eric
  * @Date: 2019/3/19 11:39
  */
+@SuppressWarnings("ALL")
 public class GiftExchangService {
     private QualifyService qualifyService;
     private PointPaymentService pointPaymentService;
     private ShippingService shippingService;
 
 
-    public void SetQualifyService(QualifyService qualifyService){
+    public void setQualifyService(QualifyService qualifyService){
         this.qualifyService = qualifyService;
     }
 
